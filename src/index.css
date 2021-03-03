@@ -1,5 +1,5 @@
 body {
-  
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +9,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin: 10px;
+  padding: 0;
+  width: 200px;
+  border: solid grey;
+}
+ul {
+  border: solid black;
+}
+button {
+  margin: 0;
+  border: solid lightslategray;
 }
 
 code {
