@@ -10,6 +10,7 @@ function Nav () {
           <NavMenu />
           <Button />
       </nav>
+
     </div>
   );
 }
