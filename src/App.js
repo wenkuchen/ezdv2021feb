@@ -10,7 +10,7 @@ function App() {
     <Router><div className="App">
       <Nav />
       <Switch>
-        <Route exact path="/" ><Home/></Route>
+        <Route exact path="/home" component={HTMLModElement}></Route>
         <Route path="/services" ><Services/></Route>
         <Route path="/about" ><About/></Route>
         <Route ><h2>No Match</h2></Route>
